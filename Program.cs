@@ -4,13 +4,7 @@ namespace biblioteka
 {
     class Program
     {
-        struct ksiazka{
-            public string tytul;
-            public string imie;
-            public string nazwisko;
-            public string datawydania;
-
-        }
+        
         static void Main(string[] args)
         {
             ksiazka ks1 =   new ksiazka();
