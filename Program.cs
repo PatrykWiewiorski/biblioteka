@@ -6,7 +6,7 @@ namespace biblioteka
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            Console.WriteLine("Wybierz 1 i wciśnij enter aby dodać książkę");
         }
     }
 }
