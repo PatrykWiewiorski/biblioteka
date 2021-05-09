@@ -7,7 +7,7 @@ namespace biblioteka
 {
     public class zarzadzanie
     {
-        public List<Ksiazka> Ksiazki { get; set; }
+        public List<Ksiazka> Ksiazki { get; set; } = new List<Ksiazka>();
         
         public void DodajKsiazke(Ksiazka ksiazka)
         {

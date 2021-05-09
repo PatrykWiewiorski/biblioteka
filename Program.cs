@@ -19,9 +19,23 @@ namespace biblioteka
 
             int wybor = Convert.ToInt32(Console.ReadLine());
             
+            var Zarzadzanie = new zarzadzanie();
             switch (wybor)
             {
                 case 1:
+                    Console.WriteLine("Podaj Tytuł książki");
+                    var tytul = Console.ReadLine();
+                     Console.WriteLine("Podaj Imię autora książki");
+                    var imie = Console.ReadLine();
+                     Console.WriteLine("Podaj Nazwisko autora książki");
+                    var nazwisko = Console.ReadLine();
+                     Console.WriteLine("Podaj rok wydania książki w formacie dd-mm-rrrr");
+                    var datawydania = Console.ReadLine();
+                    Console.WriteLine("Kontakt został pomyślnie dodany!");
+
+                    var nowaksiazka = new Ksiazka(tytul,imie,nazwisko,datawydania);
+
+                    Zarzadzanie.DodajKsiazke(nowaksiazka);
                     goto m;
                 case 2:
                     goto m;
