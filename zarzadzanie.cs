@@ -13,6 +13,10 @@ namespace biblioteka
         {
             Ksiazki.Add(ksiazka);
         }
+        private void WypiszDaneKsiazki(Ksiazka ksiazka)
+        {
+            Console.WriteLine($"Dane książki: {ksiazka.Tytul} - {ksiazka.Imie} {ksiazka.Nazwisko}, {ksiazka.Datawydania}r.");
+        }
         
         public void ZnajdzKsiazkePoTytule(string tytul)
         {
@@ -23,7 +27,7 @@ namespace biblioteka
                 Console.WriteLine("Nie znaleziono takiej książki.");
             }else
             {
-                Console.WriteLine( $"Dane książki: {ksiazka.Tytul} - {ksiazka.Imie} {ksiazka.Nazwisko}, {ksiazka.Datawydania}r.");
+                WypiszDaneKsiazki(ksiazka);
             }
         }
              public void ZnajdzKsiazkePoNazwisku(string nazwisko)

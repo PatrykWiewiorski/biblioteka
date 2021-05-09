@@ -38,6 +38,10 @@ namespace biblioteka
                     Zarzadzanie.DodajKsiazke(nowaksiazka);
                     goto m;
                 case 2:
+                    Console.WriteLine("Podaj tytuł książki");
+                    var tytul1 = Console.ReadLine();
+
+                        Zarzadzanie.ZnajdzKsiazkePoTytule(tytul1);
                     goto m;
                 case 3:
                      goto m;
