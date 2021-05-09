@@ -15,16 +15,18 @@ namespace biblioteka
         {
             ksiazka ks1 =   new ksiazka();
 
+        m:
             Console.WriteLine("Witaj w konsolowej aplikacji biblioteki!");
             Console.WriteLine("Wybierz 1 i wciśnij enter aby dodać książkę");
             Console.WriteLine("Wybierz 2 i wciśnij enter aby znaleźć książkę po tytule");
-            Console.WriteLine("Wybierz 1 i wciśnij enter aby znaleźć książkę po imieniu i nazwisku autora");
+            Console.WriteLine("Wybierz 3 i wciśnij enter aby znaleźć książkę po imieniu i nazwisku autora");
 
             int wybor = Convert.ToInt32(Console.ReadLine());
             
             switch (wybor)
             {
                 case 1:
+                
                     Console.WriteLine("Podaj tytuł książki");
                     string tytul = Console.ReadLine();
                     Console.WriteLine("Podaj Imię autora książki");
@@ -38,17 +40,17 @@ namespace biblioteka
                         ks1.imie = imie;
                         ks1.nazwisko = nazwisko;
                         ks1.datawydania = datawydania;
-                        
-                    Console.WriteLine("Pomyślnie dodano książkę!");
 
-                    break;
+                    Console.WriteLine("Pomyślnie dodano książkę!");
+                    Console.ReadKey();
+                    goto m;
                 case 2:
-                     break;
+                    goto m;
                 case 3:
-                     break;
+                     goto m;
                 default:
                 Console.WriteLine("Podaną złą wartość!");
-                break;
+                goto m;
 
             }
         }
