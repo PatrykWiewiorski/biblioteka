@@ -23,7 +23,7 @@ namespace biblioteka
                 Console.WriteLine("Nie znaleziono takiej książki.");
             }else
             {
-                Console.WriteLine( $"Dane książki: {ksiazka.Imie} {ksiazka.Nazwisko} - {ksiazka.Tytul}, {ksiazka.Datawydania}");
+                Console.WriteLine( $"Dane książki: {ksiazka.Tytul} - {ksiazka.Imie} {ksiazka.Nazwisko}, {ksiazka.Datawydania}r.");
             }
         }
              public void ZnajdzKsiazkePoNazwisku(string nazwisko)
@@ -35,7 +35,7 @@ namespace biblioteka
                 Console.WriteLine("Nie znaleziono takiej książki.");
             }else
             {
-                Console.WriteLine( $"Dane książki: {ksiazka.Imie} {ksiazka.Nazwisko} - {ksiazka.Tytul}, {ksiazka.Datawydania}");
+                Console.WriteLine( $"Dane książki: {ksiazka.Tytul} - {ksiazka.Imie} {ksiazka.Nazwisko} , {ksiazka.Datawydania}r.");
             }
 
 
