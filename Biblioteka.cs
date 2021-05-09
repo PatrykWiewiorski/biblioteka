@@ -5,7 +5,7 @@ using System.Text;
 
 namespace biblioteka
 {
-    public class zarzadzanie
+    public class Biblioteka
     {
         public List<Ksiazka> Ksiazki { get; set; } = new List<Ksiazka>();
         

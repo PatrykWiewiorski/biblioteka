@@ -19,7 +19,7 @@ namespace biblioteka
 
             int wybor = Convert.ToInt32(Console.ReadLine());
             
-            var Zarzadzanie = new zarzadzanie();
+            var biblioteka = new Biblioteka();
             switch (wybor)
             {
                 case 1:
@@ -35,13 +35,13 @@ namespace biblioteka
 
                     var nowaksiazka = new Ksiazka(tytul,imie,nazwisko,datawydania);
 
-                    Zarzadzanie.DodajKsiazke(nowaksiazka);
+                    biblioteka.DodajKsiazke(nowaksiazka);
                     goto m;
                 case 2:
                     Console.WriteLine("Podaj tytuł książki");
                     var tytul1 = Console.ReadLine();
 
-                        Zarzadzanie.ZnajdzKsiazkePoTytule(tytul1);
+                        biblioteka.ZnajdzKsiazkePoTytule(tytul1);
                     goto m;
                 case 3:
                      goto m;
