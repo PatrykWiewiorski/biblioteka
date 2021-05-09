@@ -1,8 +1,8 @@
 namespace biblioteka
 {
-    public class dodanieks
+    public class Ksiazka
     {
-        public dodanieks(string tytul, string imie, string nazwisko, string datawydania)
+        public Ksiazka(string tytul, string imie, string nazwisko, string datawydania)
         {
             Tytul = tytul;
             Imie = imie;
