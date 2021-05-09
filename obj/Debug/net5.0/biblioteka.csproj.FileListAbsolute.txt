@@ -1,0 +1,16 @@
+C:\Users\Dom\Desktop\biblioteka\bin\Debug\net5.0\biblioteka.exe
+C:\Users\Dom\Desktop\biblioteka\bin\Debug\net5.0\biblioteka.deps.json
+C:\Users\Dom\Desktop\biblioteka\bin\Debug\net5.0\biblioteka.runtimeconfig.json
+C:\Users\Dom\Desktop\biblioteka\bin\Debug\net5.0\biblioteka.runtimeconfig.dev.json
+C:\Users\Dom\Desktop\biblioteka\bin\Debug\net5.0\biblioteka.dll
+C:\Users\Dom\Desktop\biblioteka\bin\Debug\net5.0\ref\biblioteka.dll
+C:\Users\Dom\Desktop\biblioteka\bin\Debug\net5.0\biblioteka.pdb
+C:\Users\Dom\Desktop\biblioteka\obj\Debug\net5.0\biblioteka.csprojAssemblyReference.cache
+C:\Users\Dom\Desktop\biblioteka\obj\Debug\net5.0\biblioteka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dom\Desktop\biblioteka\obj\Debug\net5.0\biblioteka.AssemblyInfoInputs.cache
+C:\Users\Dom\Desktop\biblioteka\obj\Debug\net5.0\biblioteka.AssemblyInfo.cs
+C:\Users\Dom\Desktop\biblioteka\obj\Debug\net5.0\biblioteka.csproj.CoreCompileInputs.cache
+C:\Users\Dom\Desktop\biblioteka\obj\Debug\net5.0\biblioteka.dll
+C:\Users\Dom\Desktop\biblioteka\obj\Debug\net5.0\ref\biblioteka.dll
+C:\Users\Dom\Desktop\biblioteka\obj\Debug\net5.0\biblioteka.pdb
+C:\Users\Dom\Desktop\biblioteka\obj\Debug\net5.0\biblioteka.genruntimeconfig.cache
