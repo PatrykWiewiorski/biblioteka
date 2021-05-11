@@ -39,7 +39,7 @@ namespace biblioteka
                 Console.WriteLine("Nie znaleziono takiej książki.");
             }else
             {
-                Console.WriteLine( $"Dane książki: {ksiazka.Tytul} - {ksiazka.Imie} {ksiazka.Nazwisko} , {ksiazka.Datawydania}r.");
+                WypiszDaneKsiazki(ksiazka);
             }
 
 

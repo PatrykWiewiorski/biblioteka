@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Dom\\.nuget\\packages\\": {}
+    "C:\\Users\\Użytkownik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dom\\Desktop\\biblioteka\\biblioteka.csproj",
+      "projectUniqueName": "C:\\Users\\Użytkownik\\OneDrive\\Pulpit\\Biblioteka-pull\\biblioteka\\biblioteka.csproj",
       "projectName": "biblioteka",
-      "projectPath": "C:\\Users\\Dom\\Desktop\\biblioteka\\biblioteka.csproj",
-      "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dom\\Desktop\\biblioteka\\obj\\",
+      "projectPath": "C:\\Users\\Użytkownik\\OneDrive\\Pulpit\\Biblioteka-pull\\biblioteka\\biblioteka.csproj",
+      "packagesPath": "C:\\Users\\Użytkownik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Użytkownik\\OneDrive\\Pulpit\\Biblioteka-pull\\biblioteka\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Użytkownik\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

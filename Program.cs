@@ -46,10 +46,14 @@ namespace biblioteka
                         biblioteka.ZnajdzKsiazkePoTytule(tytul1);
                     break;
                 case 3:
+                Console.WriteLine("Podaj Nazwisko autora książki");
+                    var nazwisko1 = Console.ReadLine();
+
+                        biblioteka.ZnajdzKsiazkePoNazwisku(nazwisko1);
                      break;
                 default:
                 Console.WriteLine("Podaną złą wartość!");
-                break;
+                    break;
 
 
             }
