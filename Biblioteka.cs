@@ -15,7 +15,7 @@ namespace biblioteka
         }
         private void WypiszDaneKsiazki(Ksiazka ksiazka)
         {
-            Console.WriteLine($"Dane książki: {ksiazka.Tytul} - {ksiazka.Imie} {ksiazka.Nazwisko}, {ksiazka.Datawydania}r.");
+            Console.WriteLine($"Dane książki: {ksiazka.Tytul} - {ksiazka.Imie} {ksiazka.Nazwisko}, Data wydania: {ksiazka.Datawydania}r.");
         }
         
         public void ZnajdzKsiazkePoTytule(string tytul)
